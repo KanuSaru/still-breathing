@@ -1,0 +1,46 @@
+{
+  "name": "still-there",
+  "version": "1.0.0",
+  "description": "Are the links on your site still there? A small link checker for built sites, Markdown and notes: finds dead links, says where they are, and can open an issue every month. No dependencies.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "bin": {
+    "still-there": "bin/still-there.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "bin"
+  ],
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "link-checker",
+    "broken-links",
+    "dead-links",
+    "link-rot",
+    "static-site",
+    "markdown",
+    "github-actions",
+    "indieweb",
+    "cli"
+  ],
+  "author": "Erick Donado (https://github.com/KanuSaru)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KanuSaru/still-there.git"
+  },
+  "homepage": "https://github.com/KanuSaru/still-there#readme"
+}
