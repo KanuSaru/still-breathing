@@ -1,6 +1,6 @@
 {
   "name": "still-breathing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Are the links on your site still breathing? A small link checker for built sites, Markdown and notes: finds dead links, says where they are, and can open an issue every month. No dependencies.",
   "type": "module",
   "main": "./src/index.js",
