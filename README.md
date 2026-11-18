@@ -1,6 +1,6 @@
-# still-there
+# still-breathing
 
-Are the links on your site still there?
+Are the links on your site still breathing?
 
 A small link checker for personal sites, notes and docs. Point it at a built site or a folder of Markdown; it asks every outside link whether it still answers, tells you which ones died and **where each one is**, and can open a GitHub issue for you once a month.
 
@@ -11,8 +11,8 @@ A small link checker for personal sites, notes and docs. Point it at a built sit
 ## Use it
 
 ```bash
-npx still-there out/                 # a built site
-npx still-there README.md docs/      # files and folders
+npx still-breathing out/                 # a built site
+npx still-breathing README.md docs/      # files and folders
 ```
 
 ```
@@ -69,7 +69,7 @@ It checks links to **other** sites. Links between your own pages aren't checked 
 ## From code
 
 ```js
-import { collect, checkLinks, markdownReport } from "still-there";
+import { collect, checkLinks, markdownReport } from "still-breathing";
 
 const { links } = collect(["out"], { ignore: ["example.com"] });
 const results = await checkLinks([...links.keys()], { onResult: (r, done, total) => console.log(done, total, r.state) });

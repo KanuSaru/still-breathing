@@ -1,12 +1,12 @@
 {
-  "name": "still-there",
+  "name": "still-breathing",
   "version": "1.0.0",
-  "description": "Are the links on your site still there? A small link checker for built sites, Markdown and notes: finds dead links, says where they are, and can open an issue every month. No dependencies.",
+  "description": "Are the links on your site still breathing? A small link checker for built sites, Markdown and notes: finds dead links, says where they are, and can open an issue every month. No dependencies.",
   "type": "module",
   "main": "./src/index.js",
   "types": "./src/index.d.ts",
   "bin": {
-    "still-there": "bin/still-there.js"
+    "still-breathing": "bin/still-breathing.js"
   },
   "exports": {
     ".": {
@@ -40,7 +40,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KanuSaru/still-there.git"
+    "url": "git+https://github.com/KanuSaru/still-breathing.git"
   },
-  "homepage": "https://github.com/KanuSaru/still-there#readme"
+  "homepage": "https://github.com/KanuSaru/still-breathing#readme"
 }

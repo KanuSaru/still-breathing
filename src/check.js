@@ -1,4 +1,4 @@
-// Asks each address whether it's still there.
+// Asks each address whether it's still breathing.
 //
 // Three answers, because the web isn't a yes-or-no place:
 //   ok       it answered
@@ -6,7 +6,7 @@
 //   unsure   couldn't tell: the site blocks robots (403, 429…), timed out or had a server
 //            error. Worth a look by hand, not worth an alarm.
 
-const UA = "Mozilla/5.0 (compatible; still-there/1.0; +https://github.com/KanuSaru/still-there)";
+const UA = "Mozilla/5.0 (compatible; still-breathing/1.0; +https://github.com/KanuSaru/still-breathing)";
 const DEAD = new Set([404, 410]);
 const BLOCKED = new Set([401, 403, 405, 406, 418, 429, 451, 999]);
 
